@@ -59,12 +59,17 @@ The model combines:
 ###  Supported Gestures
 Refer to signlanguage.jpg or signlanguage.svg for the full list of recognized ASL letters or gestures.
 
-###  Dependencies
+### 📚 Dependencies
 - tensorflow
 - mediapipe
 - numpy
 - opencv-python
 - streamlit
 - streamlit-webrtc
+
 (See requirements.txt for exact versions.)
+
+### 🎓 Acknowledgments
+This project was developed as part of an academic exploration into sign language recognition and human-computer interaction using deep learning and real-time computer vision.
+
 
