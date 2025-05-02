@@ -15,7 +15,16 @@ This project detects and classifies American Sign Language (ASL) gestures using 
 ---
 
 ## Project Structure
-``` hand-gestures-recognition/ ├── app.py # Main Streamlit application ├── model/ # Saved Keras model (.keras or .h5) ├── requirements.txt # List of Python dependencies ├── .gitignore # Ignore virtual environments and system files ├── signlanguage.jpg # Reference chart of ASL gestures ├── signlanguage.svg # Vector image version of ASL chart └── README.md # Project documentation ```
+```
+hand-gestures-recognition/
+├── app.py # Main Streamlit application
+├── model/ # Saved Keras model (.keras or .h5)
+├── requirements.txt # List of Python dependencies
+├── .gitignore # Ignore virtual environments and system files
+├── signlanguage.jpg # Reference chart of ASL gestures
+├── signlanguage.svg # Vector image version of ASL chart
+└── README.md # Project documentation
+```
 
 ## Getting Started
 
