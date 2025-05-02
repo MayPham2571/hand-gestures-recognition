@@ -15,15 +15,7 @@ This project detects and classifies American Sign Language (ASL) gestures using 
 ---
 
 ## Project Structure
-hand-gestures-recognition/
-│
-├── app.py # Main Streamlit application
-├── model/ # Saved Keras model (.keras or .h5)
-├── requirements.txt # List of Python dependencies
-├── .gitignore # Ignore virtual environments and system files
-├── signlanguage.jpg # Reference chart of ASL gestures
-├── signlanguage.svg # Vector image version of ASL chart
-└── README.md # Project documentation
+<pre> <code> ``` hand-gestures-recognition/ ├── app.py # Main Streamlit application ├── model/ # Saved Keras model (.keras or .h5) ├── requirements.txt # List of Python dependencies ├── .gitignore # Ignore virtual environments and system files ├── signlanguage.jpg # Reference chart of ASL gestures ├── signlanguage.svg # Vector image version of ASL chart └── README.md # Project documentation ``` </code> </pre>
 
 ## Getting Started
 
@@ -48,3 +40,22 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
+### Model Overview
+
+The model combines:
+- CNN: Extracts spatial features from hand landmark sequences.
+- LSTM: Captures temporal relationships between gestures across frames.
+- The input features are preprocessed 2D hand keypoints detected using MediaPipe Hands.
+
+###  Supported Gestures
+Refer to signlanguage.jpg or signlanguage.svg for the full list of recognized ASL letters or gestures.
+
+###  Dependencies
+- tensorflow
+- mediapipe
+- numpy
+- opencv-python
+- streamlit
+- streamlit-webrtc
+(See requirements.txt for exact versions.)
+
