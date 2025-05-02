@@ -29,19 +29,22 @@ hand-gestures-recognition/
 
 ### 1. Clone the repository
 
-```Terminal:
+```
 git clone https://github.com/MayPham2571/hand-gestures-recognition.git
 cd hand-gestures-recognition
 ```
 ### 2. Create and activate a virtual environment
+```
 python3 -m venv venv
 source venv/bin/activate  
-
+```
 (On Windows: venv\Scripts\activate)
 
 ### 3. Install required packages
+```
 pip install -r requirements.txt
-
+```
 ### 4. Run the application
+```
 streamlit run app.py
-
+```
